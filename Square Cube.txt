@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    float x;
+    printf("\n Enter the number=");
+    scanf("%f",&x);
+    {
+        printf("\n Enter the number=%f",(x*x));
+        printf("\n Enter the number=%f",(x*x*x));
+    }
+    return 0;
+}
